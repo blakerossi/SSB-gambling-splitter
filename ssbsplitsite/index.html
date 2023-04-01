@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Value Splitter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/b3cf6ee32f.js" crossorigin="anonymous"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+</head>
+<nav>
+	<header>SSB Gambling Splitter<i>twitter: @spunosounds</i></header>
+	
+</nav>
+
+
+<body>
+		<form>
+			<label for="total-values">Total Number of People Gambling:</label>
+			<input type="number" id="total-values" name="total-values" min="1"><br><br>
+			<button type="button" onclick="createInputBoxes()">Submit</button><br>
+			<div id="input-boxes"></div><br>
+			<label for="final-result">Final Winnings:</label>
+			<input type="number" id="final-result" name="final-result"><br><br>
+			<button type="button" onclick="splitValues()">Split Values</button>
+			<div id="output"></div>
+		</form>
+	
+	
+	
+	<script type="text/javascript" src="split.js"></script>
+</body>
+</html>
+
